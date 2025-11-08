@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aurora Family Studio — Családi, baba‑mama és újszülött fotózás</title>
+  <meta name="description" content="Természetes, meleg hangulatú családi, baba‑mama és újszülött fotózás. Letisztult, prémium élmény.">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="header" id="header">
+    <div class="container header-row">
+      <div class="brand">
+        <a href="#home" class="logo">Aurora <span>Family Studio</span></a>
+      </div>
+      <nav class="nav" aria-label="Fő navigáció">
+        <a href="#about" data-key="menu-about">Rólam</a>
+        <a href="#portfolio" data-key="menu-portfolio">Portfólió</a>
+        <a href="#pricing" data-key="menu-pricing">Csomagok</a>
+        <a href="#reviews" data-key="menu-reviews">Vélemények</a>
+        <a href="#contact" data-key="menu-contact">Kapcsolat</a>
+        <div class="lang">
+          <img src="https://flagcdn.com/w20/hu.png" id="lang-hu" class="flag active" alt="HU">
+          <img src="https://flagcdn.com/w20/gb.png" id="lang-en" class="flag" alt="EN">
+        </div>
+      </nav>
+      <button class="hamburger" id="burger" aria-label="Menü"><span></span><span></span><span></span></button>
+    </div>
+    <div class="drawer" id="drawer">
+      <a href="#about" data-key="menu-about">Rólam</a>
+      <a href="#portfolio" data-key="menu-portfolio">Portfólió</a>
+      <a href="#pricing" data-key="menu-pricing">Csomagok</a>
+      <a href="#reviews" data-key="menu-reviews">Vélemények</a>
+      <a href="#contact" data-key="menu-contact">Kapcsolat</a>
+      <div class="drawer-lang">
+        <img src="https://flagcdn.com/w20/hu.png" id="lang-hu-m" class="flag active" alt="HU">
+        <img src="https://flagcdn.com/w20/gb.png" id="lang-en-m" class="flag" alt="EN">
+      </div>
+    </div>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-bg" role="img" aria-label="Meleg hangulatú családi pillanat"></div>
+    <div class="container hero-content">
+      <h1 class="display" data-key="hero-title">Megőrzöm a pillanatot, ami ma még csak mosoly.</h1>
+      <p class="lead" data-key="hero-sub">Családi, baba‑mama és újszülött fotózás természetes fényben.</p>
+      <div class="cta">
+        <a href="#portfolio" class="btn primary" data-key="hero-cta-1">Nézd meg a portfóliót</a>
+        <a href="#contact" class="btn ghost" data-key="hero-cta-2">Kérj ajánlatot</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="container about grid">
+      <div class="about-media reveal">
+        <img loading="lazy" src="https://images.unsplash.com/photo-1527980965255-d3b416303d12?auto=format&fit=crop&w=1200&q=80" alt="Fotós portré">
+      </div>
+      <div class="about-text reveal">
+        <h2 data-key="about-title">Rólam</h2>
+        <p data-key="about-txt">Hiszem, hogy a legszebb képek a természetes, őszinte pillanatokból születnek. 8+ év tapasztalattal, meleg, barátságos légkörben fotózom — a mosoly nem kényszer, hanem élmény.</p>
+        <ul class="ticks">
+          <li data-key="about-b1">Természetes fény és finom retus</li>
+          <li data-key="about-b2">Családbarát, türelmes hozzáállás</li>
+          <li data-key="about-b3">Gyors átadás: 3–7 munkanap</li>
+        </ul>
+        <a href="#contact" class="btn" data-key="about-cta">Időpontot kérek</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="portfolio" class="section alt">
+    <div class="container">
+      <div class="toolbar">
+        <h2 data-key="port-title">Portfólió</h2>
+        <div class="filters">
+          <button class="chip active" data-filter="all" data-key="filter-all">Összes</button>
+          <button class="chip" data-filter="family" data-key="filter-family">Család</button>
+          <button class="chip" data-filter="newborn" data-key="filter-newborn">Újszülött</button>
+          <button class="chip" data-filter="couple" data-key="filter-couple">Páros</button>
+        </div>
+      </div>
+      <div class="gallery reveal" id="gallery">
+        <figure data-cat="family"><img loading="lazy" src="https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=1600&q=80" alt="Családi pillanat nappali fényben"></figure>
+        <figure data-cat="newborn"><img loading="lazy" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=1600&q=80" alt="Újszülött közelkép puha takaróval"></figure>
+        <figure data-cat="couple"><img loading="lazy" src="https://images.unsplash.com/photo-1521335629791-ce4aec67dd53?auto=format&fit=crop&w=1600&q=80" alt="Páros fotó golden hour"></figure>
+        <figure data-cat="family"><img loading="lazy" src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=1600&q=80" alt="Nevetős családi fotó nappaliban"></figure>
+        <figure data-cat="newborn"><img loading="lazy" src="https://images.unsplash.com/photo-1519681396359-4259762d4b18?auto=format&fit=crop&w=1600&q=80" alt="Újszülött alvó portré"></figure>
+        <figure data-cat="couple"><img loading="lazy" src="https://images.unsplash.com/photo-1517260739337-6799d5370b3f?auto=format&fit=crop&w=1600&q=80" alt="Páros kézfogás, természetes fény"></figure>
+        <figure data-cat="family"><img loading="lazy" src="https://images.unsplash.com/photo-1519716825603-6b6f2e0b2f9d?auto=format&fit=crop&w=1600&q=80" alt="Kültéri családi fotó"></figure>
+        <figure data-cat="newborn"><img loading="lazy" src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80" alt="Újszülött kéz a szülő kezében"></figure>
+        <figure data-cat="couple"><img loading="lazy" src="https://images.unsplash.com/photo-1529634806980-b1d0ae31e9d1?auto=format&fit=crop&w=1600&q=80" alt="Páros ölelés naplementében"></figure>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing" class="section">
+    <div class="container">
+      <h2 class="center" data-key="pricing-title">Csomagok és árak</h2>
+      <p class="muted center" data-key="pricing-sub">Az árak tartalmazzák a válogatást és az alapretust. Smink és frizura kérhető.</p>
+      <div class="cards">
+        <div class="card reveal">
+          <h3 data-key="p1-title">Családi fotózás</h3>
+          <ul>
+            <li data-key="p1-1">90 perc (stúdió / kültér)</li>
+            <li data-key="p1-2">25 retusált fotó</li>
+            <li data-key="p1-3">Online galéria + letöltés</li>
+          </ul>
+          <div class="price">59 900 Ft</div>
+          <a href="#contact" class="btn small" data-key="btn-book">Időpontot foglalok</a>
+        </div>
+        <div class="card highlight reveal">
+          <div class="tag" data-key="popular">Népszerű</div>
+          <h3 data-key="p2-title">Újszülött fotózás</h3>
+          <ul>
+            <li data-key="p2-1">2–3 óra, biztonságos pózok</li>
+            <li data-key="p2-2">15 retusált fotó + kellékek</li>
+            <li data-key="p2-3">Családi képek az árban</li>
+          </ul>
+          <div class="price">89 900 Ft</div>
+          <a href="#contact" class="btn small" data-key="btn-book">Időpontot foglalok</a>
+        </div>
+        <div class="card reveal">
+          <h3 data-key="p3-title">Páros fotózás</h3>
+          <ul>
+            <li data-key="p3-1">60 perc kreatív fotózás</li>
+            <li data-key="p3-2">20 retusált fotó</li>
+            <li data-key="p3-3">Választható helyszín</li>
+          </ul>
+          <div class="price">49 900 Ft</div>
+          <a href="#contact" class="btn small" data-key="btn-book">Időpontot foglalok</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="reviews" class="section alt">
+    <div class="container">
+      <h2 class="center" data-key="reviews-title">Vélemények</h2>
+      <div class="quotes reveal">
+        <blockquote>“<span data-key="rev1">Életünk legszebb családi képei! A gyerekek is imádták.</span>” — Anna</blockquote>
+        <blockquote>“<span data-key="rev2">Türelmes, kedves, profi — az újszülött fotózás varázslat volt.</span>” — Dóri</blockquote>
+        <blockquote>“<span data-key="rev3">Páros fotóink meleg hangulatúak, természetesek — imádjuk!</span>” — Márk</blockquote>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section contact">
+    <div class="container grid contact-grid">
+      <div class="contact-text reveal">
+        <h2 data-key="contact-title">Kapcsolat</h2>
+        <p class="muted" data-key="contact-sub">Írd meg röviden az elképzelésed — 24 órán belül válaszolok.</p>
+        <ul class="contact-meta">
+          <li>📍 Budapest</li>
+          <li>📞 +36 30 000 0000</li>
+          <li>✉️ studio@auroraphoto.hu</li>
+        </ul>
+      </div>
+      <form class="contact-form reveal" onsubmit="event.preventDefault(); alert(successMsg);">
+        <div class="grid2">
+          <input type="text" placeholder="Név" data-key="ph-name" required>
+          <input type="email" placeholder="E‑mail" data-key="ph-email" required>
+        </div>
+        <div class="grid2">
+          <input type="date" data-key="ph-date">
+          <select>
+            <option value="" selected disabled data-key="ph-package">Válassz csomagot</option>
+            <option data-key="pkg-family">Családi</option>
+            <option data-key="pkg-newborn">Újszülött</option>
+            <option data-key="pkg-couple">Páros</option>
+          </select>
+        </div>
+        <textarea rows="6" placeholder="Üzenet" data-key="ph-message"></textarea>
+        <button class="btn primary" type="submit" data-key="send">Küldés</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 Aurora Family Studio • <a href="#home">Vissza az elejére</a></p>
+    </div>
+  </footer>
+</body>
+</html>
