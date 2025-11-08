@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="hu" data-theme="dark">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bemutatkozás – Profi „hűha” oldal</title>
+  <meta name="description" content="Egy modern, letisztult és látványos személyes bemutatkozó oldal – CV, portfólió és kapcsolat egy helyen." />
+  <meta name="theme-color" content="#0b0f17" />
+  <meta name="color-scheme" content="dark light">
+  <meta property="og:title" content="Bemutatkozás – Profi „hűha” oldal">
+  <meta property="og:description" content="Modern, animált és gyors bemutatkozó oldal magyarul.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2032%2032'%3E%3Ccircle%20cx='16'%20cy='16'%20r='16'%20fill='%237c3aed'/%3E%3Cpath%20d='M11%2016l3%203%207-7'%20stroke='white'%20stroke-width='3'%20fill='none'%20stroke-linecap='round'%20stroke-linejoin='round'/%3E%3C/svg%3E">
+  <link rel="preload" href="styles.css" as="style" />
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "A Te Neved",
+    "jobTitle": "Pozíciód / Szakmád",
+    "url": "https://example.com",
+    "email": "mailto:te@pelda.hu",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Város",
+      "addressCountry": "HU"
+    },
+    "sameAs": [
+      "https://www.linkedin.com/",
+      "https://github.com/"
+    ]
+  }
+  </script>
+</head>
+<body>
+  <div class="scroll-progress" aria-hidden="true"><span></span></div>
+  <a href="#tartalom" class="skip-link">Ugrás a tartalomra</a>
+
+  <header class="site-header">
+    <nav class="nav container" aria-label="Fő navigáció">
+      <a class="brand" href="#hero" aria-label="Főoldal">
+        <span class="logo" aria-hidden="true">◆</span>
+        <span class="brand-text">A Te Neved</span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="menu">☰</button>
+      <ul id="menu" class="menu">
+        <li><a href="#rolam">Rólam</a></li>
+        <li><a href="#szolgaltatasok">Szolgáltatások</a></li>
+        <li><a href="#projektek">Projektek</a></li>
+        <li><a href="#kapcsolat">Kapcsolat</a></li>
+      </ul>
+      <div class="actions">
+        <button id="themeBtn" class="btn ghost" aria-label="Téma váltása">🌗</button>
+        <a class="btn primary" href="#kapcsolat">Keress meg</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="tartalom">
+    <!-- HERO -->
+    <section id="hero" class="hero container" aria-label="Bemutatkozás">
+      <div class="orbs" aria-hidden="true">
+        <span class="orb orb1"></span>
+        <span class="orb orb2"></span>
+        <span class="orb orb3"></span>
+      </div>
+      <div class="hero-grid">
+        <div class="hero-copy reveal">
+          <p class="kicker">Szia 👋</p>
+          <h1><span class="gradient-text">A Te Neved</span><br><span class="faded">— „hűha” bemutatkozó oldal</span></h1>
+          <p class="subtitle">Segítek <strong>digitális termékek</strong> és <strong>élmények</strong> megalkotásában – stratégia, design, kód. Röviden: <em>szépet és okosat</em> készítek.</p>
+          <div class="cta">
+            <a class="btn primary" href="#projektek">Mutasd a munkáim</a>
+            <a class="btn outline" href="#rolam">Tudj meg többet</a>
+          </div>
+          <ul class="quick-stats" aria-label="Gyors adatok">
+            <li>10+ év tapasztalat</li>
+            <li>25+ kész projekt</li>
+            <li>Budapest, HU</li>
+          </ul>
+          <div class="socials">
+            <a class="social" aria-label="E-mail" href="mailto:te@pelda.hu">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 6h20v12H2z" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M2 7l10 7 10-7" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
+            </a>
+            <a class="social" aria-label="LinkedIn" href="https://www.linkedin.com/" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 3a2 2 0 110 4 2 2 0 010-4zm1 5H3v13h2V8zm5 0H8v13h2v-7c0-2 3-2.2 3 0v7h2v-8.5c0-4.5-5-4.3-6-2.1V8z" fill="currentColor"/></svg>
+            </a>
+            <a class="social" aria-label="GitHub" href="https://github.com/" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 .5A11.5 11.5 0 000 12.3c0 5.2 3.4 9.6 8.2 11.2.6.1.8-.3.8-.6v-2.1c-3.3.8-4-1.5-4-1.5-.6-1.5-1.5-1.9-1.5-1.9-1.2-.8.1-.8.1-.8 1.3.1 2 .9 2 .9 1.2 2 3.2 1.4 4 .9.1-.9.5-1.4.9-1.7-2.6-.3-5.3-1.3-5.3-5.8 0-1.3.5-2.4 1.2-3.3-.1-.3-.5-1.6.1-3.3 0 0 1-.3 3.4 1.2a11.6 11.6 0 016.2 0c2.4-1.5 3.4-1.2 3.4-1.2.6 1.7.2 3 .1 3.3.8.9 1.2 2 1.2 3.3 0 4.6-2.7 5.5-5.3 5.8.5.5 1 1.3 1 2.6v3.9c0 .3.2.7.8.6A11.7 11.7 0 0024 12.3 11.5 11.5 0 0012 .5z" fill="currentColor"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="hero-media reveal">
+          <figure class="portrait-card" aria-label="Portré">
+            <svg viewBox="0 0 600 800" role="img" aria-label="Helykitöltő portré">
+              <defs>
+                <linearGradient id="g1" x1="0" x2="1">
+                  <stop offset="0%" stop-color="#7c3aed"/>
+                  <stop offset="100%" stop-color="#06b6d4"/>
+                </linearGradient>
+                <filter id="glow"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+              </defs>
+              <rect x="0" y="0" width="600" height="800" rx="38" fill="url(#g1)"/>
+              <g transform="translate(100,120)">
+                <circle cx="200" cy="160" r="120" fill="#0b0f17" opacity="0.9"/>
+                <rect x="80" y="300" width="240" height="200" rx="24" fill="#0b0f17" opacity="0.9"/>
+                <text x="200" y="560" text-anchor="middle" fill="#e8eefc" font-size="28" font-family="ui-sans-serif, system-ui">Ide jön a fotód</text>
+              </g>
+              <rect x="12" y="12" width="576" height="776" rx="34" fill="none" stroke="rgba(255,255,255,.18)" />
+              <circle cx="520" cy="80" r="16" fill="url(#g1)" filter="url(#glow)"/>
+            </svg>
+            <figcaption>Cseréld le a képet a sajátodra (600×800 ajánlott).</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- RÓLAM -->
+    <section id="rolam" class="section container">
+      <div class="section-head">
+        <h2>Rólam</h2>
+        <p>Designer & fejlesztő, aki a stratégiától a megvalósításig végigviszi a projektet. Emberközpontú, adatvezérelt és üzletileg is működő megoldásokban hiszek.</p>
+      </div>
+      <div class="about-grid">
+        <div class="about-card reveal">
+          <h3>Erősségeim</h3>
+          <ul class="checklist">
+            <li>Gyors megértés, tiszta kommunikáció</li>
+            <li>Átgondolt UX és látványos UI</li>
+            <li>Tiszta, skálázható kód</li>
+            <li>End‑to‑end megvalósítás</li>
+          </ul>
+        </div>
+        <div class="about-card reveal">
+          <h3>Technológiák</h3>
+          <p>JavaScript/TypeScript, HTML/CSS, React, Node, Python; Figma, Framer, After Effects. CI/CD, Web Vitals, hozzáférhetőség.</p>
+          <div class="tags">
+            <span class="tag">JS/TS</span><span class="tag">React</span><span class="tag">Node</span><span class="tag">Figma</span><span class="tag">A11y</span>
+          </div>
+        </div>
+        <div class="about-card reveal">
+          <h3>Értékajánlat</h3>
+          <p>Nem csak “szép oldalt” kapsz: üzleti célokkal összehangolt terméket, mérhető eredményekkel.</p>
+          <div class="metric-cards">
+            <div class="metric"><strong>+37%</strong><span>Konverzió</span></div>
+            <div class="metric"><strong>–42%</strong><span>Betöltési idő</span></div>
+            <div class="metric"><strong>+18%</strong><span>Idő az oldalon</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SZOLGÁLTATÁSOK -->
+    <section id="szolgaltatasok" class="section container">
+      <div class="section-head">
+        <h2>Szolgáltatások</h2>
+        <p>Válaszd ki, mire van szükséged — a többit megoldom.</p>
+      </div>
+      <div class="card-grid">
+        <article class="card reveal">
+          <h3>Arculat & UX stratégia</h3>
+          <p>Workshop, célok, user journey, wireframe. Erős alapok a skálázáshoz.</p>
+        </article>
+        <article class="card reveal">
+          <h3>UI design & prototípus</h3>
+          <p>Modern vizuál, micro‑interakciók, élő protók Figma/Framerben.</p>
+        </article>
+        <article class="card reveal">
+          <h3>Fejlesztés</h3>
+          <p>Reszponzív, gyors és hozzáférhető frontend – SEO és analitika‑barát.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- PROJEKTEK -->
+    <section id="projektek" class="section container">
+      <div class="section-head">
+        <h2>Kiemelt projektek</h2>
+        <p>Néhány friss munka. A kártyákon lebegve nézd a fény‑parallax effektet.</p>
+      </div>
+      <div class="projects-grid">
+        <a class="project-card reveal" href="#" aria-label="Projekt 1">
+          <div class="project-media" data-title="Fintech irányítópult"></div>
+          <div class="project-copy">
+            <h3>Fintech irányítópult</h3>
+            <p>Adatvizualizáció, realtime frissítés, banki integrációk.</p>
+          </div>
+        </a>
+        <a class="project-card reveal" href="#" aria-label="Projekt 2">
+          <div class="project-media" data-title="E‑kereskedelmi landing"></div>
+          <div class="project-copy">
+            <h3>E‑kereskedelmi landing</h3>
+            <p>UX tesztelés + performance tuning → nagyobb kosárérték.</p>
+          </div>
+        </a>
+        <a class="project-card reveal" href="#" aria-label="Projekt 3">
+          <div class="project-media" data-title="SaaS marketing oldal"></div>
+          <div class="project-copy">
+            <h3>SaaS marketing oldal</h3>
+            <p>Értékajánlat kristálytisztán, fókuszban a próbára ösztönzés.</p>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- KAPCSOLAT -->
+    <section id="kapcsolat" class="section container">
+      <div class="section-head">
+        <h2>Kapcsolat</h2>
+        <p>Készen állsz valamire, amire azt mondják: „hűha”? Írj bátran!</p>
+      </div>
+      <div class="contact-grid">
+        <form class="contact-form reveal" action="mailto:te@pelda.hu" method="post" enctype="text/plain" onsubmit="return window.onContactSubmit(event)">
+          <label>
+            <span>Név</span>
+            <input type="text" name="Név" placeholder="Add meg a neved" required>
+          </label>
+          <label>
+            <span>E‑mail</span>
+            <input type="email" name="Email" placeholder="valami@pelda.hu" required>
+          </label>
+          <label>
+            <span>Üzenet</span>
+            <textarea name="Üzenet" rows="4" placeholder="Miben segíthetek?" required></textarea>
+          </label>
+          <div class="form-actions">
+            <button class="btn primary" type="submit">Küldés</button>
+            <button class="btn ghost" type="button" onclick="copyEmail()">E‑mail másolása</button>
+          </div>
+          <p class="form-note">A fenti gomb az alapértelmezett leveleződbe nyit új üzenetet.</p>
+        </form>
+
+        <aside class="contact-card reveal" aria-label="Elérhetőségek">
+          <h3>Közvetlen elérés</h3>
+          <ul class="contact-list">
+            <li><strong>E‑mail:</strong> <a href="mailto:te@pelda.hu" id="emailText">te@pelda.hu</a></li>
+            <li><strong>Helyszín:</strong> Budapest, Magyarország</li>
+            <li><strong>Elérhetőség:</strong> H‑P, 9‑17</li>
+          </ul>
+          <div class="mini-cta">
+            <a class="btn outline" href="#projektek">Projektek</a>
+            <a class="btn ghost" href="#rolam">Rólam</a>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> – A Te Neved. Minden jog fenntartva.</p>
+      <a href="#hero" class="to-top" aria-label="Ugrás az oldal tetejére">↑ Vissza az elejére</a>
+    </div>
+  </footer>
+</body>
+</html>
